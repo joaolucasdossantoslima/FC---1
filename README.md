@@ -2,6 +2,7 @@
 
 ## Hello World com Docker
 
+<<<<<<< HEAD
 **primeiro foi criado um dockfile contendo**
 ```bash
 "FROM alpine:latest"
