@@ -2,16 +2,11 @@
 
 ## Hello World com Docker
 
-**Primeiro foi criado um dockfile contendo**
+**Primeiro digitamos no terminal para baixar a imagem:**
 ```bash
-"FROM alpine:latest"
-"CMD ["echo", "Hello World"]
+'docker pull hello-world'
 ```
-**Em seguida eu criei a imagem com o comando**
+**Em seguida executei o container com:**
 ```bash
-'docker build -t meu-hello-world .'
-```
-**E executei o container com**
-```bash
-docker run meu-hello-world
+'docker run hello-word'
 ```
